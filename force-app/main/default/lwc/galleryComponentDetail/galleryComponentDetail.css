@@ -35,7 +35,7 @@
 
 .summary {
     font-weight: bold;
-    /* border-right: 2px solid #dddbda; */
+
     padding-right: 12px;
 }
 
@@ -46,4 +46,19 @@
 
 .mini-header {
     font-size: 16px;
+}
+
+.separator {
+    height: 16px;
+}
+
+.tab-container {
+    background-color: white;
+    border-radius: 0.25rem;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.1);
+    margin-top: 16px;
+}
+
+lightning-tab {
+    padding-left: 16px;
 }
