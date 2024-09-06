@@ -6,11 +6,11 @@ export default class GalleryComponent extends LightningElement {
     @api description;
     @api image;
 
-    get detailUrl() {
-        return '/lightning/cmp/c__galleryComponentDetail';
-    }
-
     get imageUrl() {
         return componentIcons + '/' + this.image;
+    }
+
+    get detailUrl() {
+        return '/lightning/cmp/c__galleryComponentDetail?c__name=' + this.name;
     }
 }
